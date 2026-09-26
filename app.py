@@ -2,6 +2,7 @@
 import streamlit as st
 import tempfile
 import os
+os.environ["HF_HUB_DISABLE_PROGRESS_BARS"] = "1"
 from pathlib import Path
 
 from pipeline.rag_pipeline import AdvancedRAGPipeline

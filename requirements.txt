@@ -30,3 +30,4 @@ tiktoken
 faiss-cpu
 Unstructured
 unstructured[pdf]
+flashrank==0.2.10
